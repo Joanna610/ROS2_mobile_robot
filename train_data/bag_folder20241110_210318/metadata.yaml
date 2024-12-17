@@ -1,0 +1,38 @@
+rosbag2_bagfile_information:
+  version: 9
+  storage_identifier: mcap
+  duration:
+    nanoseconds: 138921951258
+  starting_time:
+    nanoseconds_since_epoch: 1731268999028243180
+  message_count: 11442
+  topics_with_message_count:
+    - topic_metadata:
+        name: /scan
+        type: sensor_msgs/msg/LaserScan
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 1040
+    - topic_metadata:
+        name: /odom
+        type: nav_msgs/msg/Odometry
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 10402
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - bag_folder20241110_210318_0.mcap
+  files:
+    - path: bag_folder20241110_210318_0.mcap
+      starting_time:
+        nanoseconds_since_epoch: 1731268999028243180
+      duration:
+        nanoseconds: 138921951258
+      message_count: 11442
+  custom_data: ~
+  ros_distro: jazzy

@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/dependency_links.txt
+writing entry points to ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/entry_points.txt
+writing requirements to ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/requires.txt
+writing top-level names to ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/top_level.txt
+reading manifest file '../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros_gazebo_simulation/CNN_velocity_publisher.py -> /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build/lib/ros_gazebo_simulation
+copying ros_gazebo_simulation/data_bag_recorder.py -> /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build/lib/ros_gazebo_simulation
+running install
+running install_lib
+copying /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build/lib/ros_gazebo_simulation/CNN_velocity_publisher.py -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation
+copying /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build/lib/ros_gazebo_simulation/data_bag_recorder.py -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation
+byte-compiling /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation/CNN_velocity_publisher.py to CNN_velocity_publisher.cpython-312.pyc
+byte-compiling /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation/data_bag_recorder.py to data_bag_recorder.cpython-312.pyc
+running install_data
+copying worlds/empty.world -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/worlds
+running install_egg_info
+removing '/home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info to /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation-0.0.0-py3.12.egg-info
+running install_scripts
+Installing CNN_activate script to /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/ros_gazebo_simulation
+Installing RNN_activate script to /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/ros_gazebo_simulation
+Installing data_recorder script to /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/ros_gazebo_simulation
+Installing keyboard_controller script to /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/ros_gazebo_simulation
+Installing publish_velocity script to /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/ros_gazebo_simulation
+writing list of installed files to '/home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/install.log'
