@@ -26,27 +26,27 @@ def main():
     ranges = ranges_T.T
 
     # ----------------------------- LINEAR VELOCITY -----------------------------
-    # new_model = models.load_model('CNN_model_linear_velocity.keras')
-    # error = np.zeros((velocity_linear.shape))
+    new_model = models.load_model('CNN_model_linear_velocity.keras')
+    error = np.zeros((velocity_linear.shape))
 
-    # # print(single_measurement)
-    # for i in range(ranges.shape[0]):
-    #     single_measurement_from_lidar = ranges[i].reshape(1, -1)
-    #     vel_prediction = new_model.predict(single_measurement_from_lidar)
-    #     error[i] = velocity_linear[i] - vel_prediction
+    # print(single_measurement)
+    for i in range(ranges.shape[0]):
+        single_measurement_from_lidar = ranges[i].reshape(1, -1)
+        vel_prediction = new_model.predict(single_measurement_from_lidar)
+        error[i] = velocity_linear[i] - vel_prediction
 
-    # test_loss, test_acc = new_model.evaluate(ranges,  velocity_linear, verbose=2)
+    test_loss, test_acc = new_model.evaluate(ranges,  velocity_linear, verbose=2)
 
-    # print("loss: ", test_loss)
-    # print("accuracy: ", test_acc)
+    print("loss: ", test_loss)
+    print("accuracy: ", test_acc)
 
-    # # Tworzenie histogramu z błędami
-    # plt.figure(figsize=(10, 6))
-    # plt.hist(error, bins=200)  
-    # plt.xlabel('Wartość błędu')
-    # plt.ylabel('Liczba wystąpień')
-    # plt.grid(True)
-    # plt.show()
+    # Tworzenie histogramu z błędami
+    plt.figure(figsize=(10, 6))
+    plt.hist(error, bins=200)  
+    plt.xlabel('Wartość błędu')
+    plt.ylabel('Liczba wystąpień')
+    plt.grid(True)
+    plt.show()
 
 
     # ----------------------------- ANGULAR VELOCITY -----------------------------

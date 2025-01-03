@@ -56,9 +56,6 @@ class LidarSubscriber(Node):
                 self.velocity_angular.append(row[1])
                 self.lidar_data.append([float(x) for x in row[2:362]])
 
-            
-        
-
         # keep lidar data
         self.old_lidar_data = [0] * 360
         self.present_lidar_data = [0] * 360

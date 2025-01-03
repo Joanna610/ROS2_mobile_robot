@@ -59,7 +59,6 @@ def sighandler(signum, frame):
                     scan_msg = deserialize_message(data, LaserScan)
                     
                     # Aktualizacja bufora scan
-                    # scan_data['ranges'] = scan_msg.ranges[:360]
                     row = {'odom_linear_x': odom_data['odom_linear_x'], 'odom_angular_z': odom_data['odom_angular_z']}
                     ranges = list(scan_msg.ranges[:360]) + [None] * (360 - len(scan_msg.ranges))
                     row.update({f'range_{i+1}': ranges[i] for i in range(360)})

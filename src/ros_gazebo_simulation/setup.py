@@ -30,7 +30,6 @@ setup(
             'publish_velocity = ros_gazebo_simulation.velocity_publisher:main',
             'data_recorder = ros_gazebo_simulation.data_bag_recorder:main',
             'keyboard_controller = ros_gazebo_simulation.keyboard_controller:main',
-            # 'CNN_activate = ros_gazebo_simulation.CNN_velocity_publisher:main',
             'CNN = ros_gazebo_simulation.CNN_publisher:main',
             'RNN_activate = ros_gazebo_simulation.RNN_velocity_publisher:main',
             'RNN1_activate = ros_gazebo_simulation.RNN_var1_velocity_publisher:main',

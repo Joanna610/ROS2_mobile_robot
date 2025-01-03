@@ -94,11 +94,6 @@
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
-
-    <!-- <gazebo reference="chassis">
-    <uri>file://media/materials/scripts/gazebo.material</uri>
-        <material>Gazebo\Blue</material>
-    </gazebo> -->
     
     <!-- LEFT DOWN WHEEL LINK -->
 
@@ -126,11 +121,6 @@
         </xacro:inertial_cylinder>
     </link>
 
-    <!-- <gazebo reference="left_down_wheel">
-    <uri>file://media/materials/scripts/gazebo.material</uri>
-        <material>Gazebo\black2</material>
-    </gazebo> -->
-
     <!-- RIGHT DOWN WHEEL LINK -->
 
     <joint name="right_down_wheel_joint" type="continuous">
@@ -156,11 +146,6 @@
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
-
-    <!-- <gazebo reference="right_down_wheel">
-    <uri>file://media/materials/scripts/gazebo.material</uri>
-        <material>Gazebo\black2</material>
-    </gazebo> -->
 
     <!-- LEFT UP WHEEL LINK -->
 
@@ -188,12 +173,6 @@
         </xacro:inertial_cylinder>
     </link>
 
-
-    <!-- <gazebo reference="left_up_wheel">
-    <uri>file://media/materials/scripts/gazebo.material</uri>
-        <material>Gazebo\black2</material>
-    </gazebo> -->
-
     <!-- RIGHT UP WHEEL LINK -->
 
     <joint name="right_up_wheel_joint" type="continuous">
@@ -218,13 +197,5 @@
         <xacro:inertial_cylinder mass="0.1" length="0.03" radius="0.035">
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_cylinder>
-    </link>
-
-    <!-- <gazebo reference="right_up_wheel">
-        <uri>file://media/materials/scripts/gazebo.material</uri>
-        <material>Gazebo\black2</material>
-    </gazebo> -->
-    
-
-    
+    </link> 
 </robot>

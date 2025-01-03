@@ -35,20 +35,6 @@ class VelocityPublisher(Node):
             vel.angular.z = 0.0
             self.timer.cancel()
 
-        # self.time += 1
-
-        # if self.dol == True:
-        #     self.i_x = self.i_x + 0.3
-        # else:
-        #     self.i_x = self.i_x - 0.5
-        
-        # if self.i_x > 1.0:
-        #     self.dol = False
-
-        # if self.i_x < -1.0:
-        #     self.dol = True
-
-
 def main(args=None):
     rclpy.init(args=args)
     vel_publisher = VelocityPublisher()
