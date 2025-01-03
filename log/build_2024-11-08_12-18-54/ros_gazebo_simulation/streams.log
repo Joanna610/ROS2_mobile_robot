@@ -1,0 +1,27 @@
+[0.624s] Invoking command in '/home/joanna/ros2_gz_sim/src/ros_gazebo_simulation': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_gazebo_simulation build --build-base /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build install --record /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/install.log --single-version-externally-managed install_data
+[0.952s] running egg_info
+[0.978s] writing ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/PKG-INFO
+[0.978s] writing dependency_links to ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/dependency_links.txt
+[0.978s] writing entry points to ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/entry_points.txt
+[0.978s] writing requirements to ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/requires.txt
+[0.978s] writing top-level names to ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/top_level.txt
+[1.002s] reading manifest file '../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/SOURCES.txt'
+[1.003s] adding license file 'LICENSE'
+[1.003s] writing manifest file '../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/SOURCES.txt'
+[1.003s] running build
+[1.003s] running build_py
+[1.003s] running install
+[1.008s] running install_lib
+[1.026s] running install_data
+[1.026s] copying description/robot.urdf.xacro -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/description
+[1.026s] copying description/lidar.xacro -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/description
+[1.026s] running install_egg_info
+[1.038s] removing '/home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation-0.0.0-py3.12.egg-info' (and everything under it)
+[1.038s] Copying ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info to /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation-0.0.0-py3.12.egg-info
+[1.038s] running install_scripts
+[1.110s] Installing CNN_activate script to /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/ros_gazebo_simulation
+[1.110s] Installing data_recorder script to /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/ros_gazebo_simulation
+[1.111s] Installing keyboard_controller script to /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/ros_gazebo_simulation
+[1.111s] Installing publish_velocity script to /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/ros_gazebo_simulation
+[1.111s] writing list of installed files to '/home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/install.log'
+[1.129s] Invoked command in '/home/joanna/ros2_gz_sim/src/ros_gazebo_simulation' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_gazebo_simulation build --build-base /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build install --record /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/install.log --single-version-externally-managed install_data

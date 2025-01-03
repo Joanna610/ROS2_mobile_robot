@@ -1,0 +1,64 @@
+[0.459s] Invoking command in '/home/joanna/ros2_gz_sim/src/ros_gazebo_simulation': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_gazebo_simulation build --build-base /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build install --record /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/install.log --single-version-externally-managed install_data
+[0.606s] running egg_info
+[0.606s] creating ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info
+[0.617s] writing ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/PKG-INFO
+[0.617s] writing dependency_links to ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/dependency_links.txt
+[0.617s] writing entry points to ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/entry_points.txt
+[0.617s] writing requirements to ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/requires.txt
+[0.617s] writing top-level names to ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/top_level.txt
+[0.617s] writing manifest file '../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/SOURCES.txt'
+[0.638s] reading manifest file '../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/SOURCES.txt'
+[0.638s] adding license file 'LICENSE'
+[0.639s] writing manifest file '../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info/SOURCES.txt'
+[0.639s] running build
+[0.639s] running build_py
+[0.639s] creating /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build
+[0.639s] creating /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build/lib
+[0.639s] creating /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build/lib/ros_gazebo_simulation
+[0.639s] copying ros_gazebo_simulation/keybord_controller.py -> /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build/lib/ros_gazebo_simulation
+[0.639s] copying ros_gazebo_simulation/__init__.py -> /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build/lib/ros_gazebo_simulation
+[0.639s] copying ros_gazebo_simulation/data_bag_recorder.py -> /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build/lib/ros_gazebo_simulation
+[0.639s] copying ros_gazebo_simulation/velocity_publisher.py -> /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build/lib/ros_gazebo_simulation
+[0.640s] running install
+[0.643s] running install_lib
+[0.654s] creating /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation
+[0.654s] copying /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build/lib/ros_gazebo_simulation/keybord_controller.py -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation
+[0.654s] copying /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build/lib/ros_gazebo_simulation/__init__.py -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation
+[0.654s] copying /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build/lib/ros_gazebo_simulation/data_bag_recorder.py -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation
+[0.654s] copying /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build/lib/ros_gazebo_simulation/velocity_publisher.py -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation
+[0.654s] byte-compiling /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation/keybord_controller.py to keybord_controller.cpython-312.pyc
+[0.654s] byte-compiling /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation/__init__.py to __init__.cpython-312.pyc
+[0.655s] byte-compiling /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation/data_bag_recorder.py to data_bag_recorder.cpython-312.pyc
+[0.655s] byte-compiling /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation/velocity_publisher.py to velocity_publisher.cpython-312.pyc
+[0.655s] running install_data
+[0.655s] creating /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ament_index
+[0.655s] creating /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ament_index/resource_index
+[0.655s] creating /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ament_index/resource_index/packages
+[0.656s] copying resource/ros_gazebo_simulation -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ament_index/resource_index/packages
+[0.656s] copying package.xml -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation
+[0.656s] creating /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/launch
+[0.656s] copying launch/rsp_launch.py -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/launch
+[0.656s] copying launch/ros_gz_sim_launch.py -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/launch
+[0.656s] creating /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/config
+[0.656s] copying config/ros_gz_bridge.yaml -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/config
+[0.656s] creating /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/worlds
+[0.656s] copying worlds/wall3.sdf -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/worlds
+[0.656s] copying worlds/wall.sdf -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/worlds
+[0.656s] copying worlds/empty.world -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/worlds
+[0.656s] copying worlds/wall4.sdf -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/worlds
+[0.657s] copying worlds/wall2.sdf -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/worlds
+[0.657s] copying worlds/model.sdf -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/worlds
+[0.657s] creating /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/description
+[0.657s] copying description/gazebo_control.xacro -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/description
+[0.657s] copying description/robot.urdf.xacro -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/description
+[0.657s] copying description/robot_core.xacro -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/description
+[0.657s] copying description/lidar.xacro -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/description
+[0.657s] copying description/inertial_macros.xacro -> /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/share/ros_gazebo_simulation/description
+[0.657s] running install_egg_info
+[0.668s] Copying ../../build/ros_gazebo_simulation/ros_gazebo_simulation.egg-info to /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages/ros_gazebo_simulation-0.0.0-py3.12.egg-info
+[0.669s] running install_scripts
+[0.740s] Installing data_recorder script to /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/ros_gazebo_simulation
+[0.740s] Installing keybord_controller script to /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/ros_gazebo_simulation
+[0.740s] Installing publish_velocity script to /home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/ros_gazebo_simulation
+[0.740s] writing list of installed files to '/home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/install.log'
+[0.757s] Invoked command in '/home/joanna/ros2_gz_sim/src/ros_gazebo_simulation' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joanna/ros2_gz_sim/install/ros_gazebo_simulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_gazebo_simulation build --build-base /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/build install --record /home/joanna/ros2_gz_sim/build/ros_gazebo_simulation/install.log --single-version-externally-managed install_data
