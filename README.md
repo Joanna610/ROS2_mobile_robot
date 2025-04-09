@@ -13,5 +13,3 @@ To start the simulation we have to use the below commands:
 source install/setup.bash
 colcon build --packages-select ros_gazebo_simulation
 ros2 launch ros_gazebo_simulation ros_gz_sim_launch.py
-
-
