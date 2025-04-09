@@ -7,6 +7,8 @@ Code contain simulation in ROS2 Jazzy Jazlisco and Gazebo Hermonic. In simulatio
 The main purpose of project was to implement two neural network - Convolution and Recurrention. The input data was information form 2D sensor.
 The output was the velocity of robots' wheels.
 
+![screenshot](lidar_simulation3.png)
+
 To start the simulation we have to use this command:
 
 source install/setup.bash
