@@ -1,6 +1,6 @@
 The code contain simulation of the mobile robot in ROS2 Jazzy Jazlisco and Gazebo Hermonic. The robot collect data from sennsor 2D and information about the current velocity. Based on this data, neural network models were trained. The main purpose of project was to implement two neural network - Convolution and Recurrention to examine their efficiency by modifying their input data.
 
-<img src="lidar_simulation.png" alt="screenshot" width="400"/>
+<img src="lidar_simulation.png" alt="screenshot" width="600"/>
 
 To start the simulation we have to use the below commands:
 
